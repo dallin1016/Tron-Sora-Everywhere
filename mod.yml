@@ -1,0 +1,14 @@
+title: Halloween Sora Everywhere
+originalAuthor: dallin1016
+description: Changes every (human) Instance of Sora to his Halloween Outfit. Icon by MasterLeytrx.
+assets:
+#- name: 00objentry.bin
+#  method: copy
+#  source:
+#  - name: 00objentry.bin
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: objentrylist.yml
+    type: objentry
